@@ -7,7 +7,7 @@ import { FlakesTexture } from "three/examples/jsm/Addons.js";
 export const setupSphere = async (renderer, scene) => {
   let envmaploader = new THREE.PMREMGenerator(renderer);
 
-  new RGBELoader().setPath("textures/").load("clear-sky1.hdr", function (hdrmap) {
+  new RGBELoader().setPath("textures/").load("clear-sky.hdr", function (hdrmap) {
     let envmap = envmaploader.fromCubemap(hdrmap);
   
     const texture = new THREE.CanvasTexture(new FlakesTexture());

@@ -35,12 +35,12 @@ setupSphere(renderer, scene)
 setupDoor(scene)
 setupPlane(scene)
 
-// Light
+// Lights
 
 setupDirLight(scene)
 setupAmbLight(scene)
 
-// SKY
+// Sky
 
 setupSkyTexture(scene)
 

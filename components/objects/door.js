@@ -16,7 +16,7 @@ export const setupDoor = (scene) => {
       gui
         .add({ scale: doorSize }, "scale", 1.5, 5)
         .step(0.1)
-        .name("Масштаб")
+        .name("Размер двери")
         .onChange((value) => {
           door.scene.scale.setScalar(value);
         });
